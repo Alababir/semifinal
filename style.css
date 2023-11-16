@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans:wght@100;700;800&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&display=swap');
+
+:root {
+
+    --cor0: #ff0048;
+    --cor1: #fe9900;
+    --cor2: #d20001;
+    --cor3: #f20505;
+    --cor4: #FFBB00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto sans", sans-serif;
+}
+
+h1 {
+    font-family: "Noto sans", sans-serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "Noto sans", sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+}
+header > div > p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+}
+
+header {
+    min-height: 150px;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    text-align: center;
+    padding-top: 50px;
+    filter: grayscale(50%);
+}
+
+.apresentacao {
+    background-color: #d200006c;
+    min-width: 300px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px 15px 0px 0px;
+    max-width: 750px;
+}
+
+nav {
+    background-color: var(--cor3);
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
+}
+
+nav > ul > li{
+    display: inline;
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
+    font-family: "Noto sans", sans-serif;
+    color: var(--cor4);
+    font-size: 1.5em;
+}
+
+a {
+    padding: 10px;
+    margin: 5px 10px 5px 10px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor4);
+}
+
+nav > ul > li > a:hover {
+    transition-duration: 0.7s;
+    background-color: var(--cor4);
+    color: var(--cor2);
+    font-weight: bold;
+    border-radius: 10px;
+    border: 5px ;
+    padding: 0px 2px 0px 2px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #d2000070;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixas {
+    display: inline;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+
+}
+
+div > .desenhos {
+    max-width: 800px;
+    width: 300px;
+}
+
+.box {
+    background-color: #d2000070;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #916a0179;
+    width: 70vw;
+    height: 90vh;
+    border-radius: 15px;
+}
+
+.redes > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.redes > ul > a {
+    padding-right: 100px;
+}
+
+.redes > ul > a > li{
+    font-weight: bold;
+    list-style: none;
+    border-radius: 15px;
+    padding: 50px;
+    width: 50vw;
+    background-color: #fff;
+    color: #000;
+    padding-right: 100px;
+}
+
+.redes > ul > a > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes > ul > a > li::after {
+    content: \1F4F7
+}
